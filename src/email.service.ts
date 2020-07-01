@@ -7,10 +7,6 @@ export class EmailService {
   constructor(private readonly mailerService: MailerService) {}
 
   public async sendEmail(dto: EmailOptions): Promise<void> {
-    try {
-      await this.mailerService.sendMail(dto);
-    } catch (err) {
-      console.log(err);
-    }
+    await this.mailerService.sendMail(dto);
   }
 }
