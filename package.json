@@ -1,6 +1,6 @@
 {
-  "name": "@rockts-org/nestjs-transport-mailer",
-  "version": "0.0.3",
+  "name": "@rockts-org/nestjs-rocket-email",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
