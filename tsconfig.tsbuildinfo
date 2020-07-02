@@ -1467,7 +1467,7 @@
         "affectsGlobalScope": false
       },
       "./src/interfaces/email-module-async-options.interface.ts": {
-        "version": "bf88752cd1172ae0ccb935c1d0a475ca0a72374ab3c915dd5fb853727acf3375",
+        "version": "c139df27239fcdbc29fcb56636390743c1e3b261347a911e865cfa8cdc3ad112",
         "signature": "23a080ed161bcc8ec9e46f4b8416623ce39dd78a8b7cbad4356e411b004ebfc7",
         "affectsGlobalScope": false
       },
@@ -1477,8 +1477,8 @@
         "affectsGlobalScope": false
       },
       "./src/interfaces/index.ts": {
-        "version": "c35bf016b9627bdbf0562aabd9017534385bcc6d66a4fc9edb3a184c44eccf45",
-        "signature": "c35bf016b9627bdbf0562aabd9017534385bcc6d66a4fc9edb3a184c44eccf45",
+        "version": "bcdca386e95218e1a4174e2925f40fba10f72ac5db58065c8a95c95e637365f0",
+        "signature": "bcdca386e95218e1a4174e2925f40fba10f72ac5db58065c8a95c95e637365f0",
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
@@ -3586,7 +3586,6 @@
       ],
       "./src/interfaces/email-module-async-options.interface.ts": [
         "./node_modules/@nestjs-modules/mailer/dist/interfaces/mailer-async-options.interface.d.ts",
-        "./node_modules/@nestjs-modules/mailer/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
@@ -3603,6 +3602,7 @@
       "./src/interfaces/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
+        "./src/interfaces/email-module-async-options.interface.ts",
         "./src/interfaces/email-module-options.interface.ts",
         "./src/interfaces/email-options.interface.ts"
       ]
@@ -5555,6 +5555,7 @@
         "./node_modules/@nestjs-modules/mailer/index.d.ts"
       ],
       "./src/interfaces/index.ts": [
+        "./src/interfaces/email-module-async-options.interface.ts",
         "./src/interfaces/email-module-options.interface.ts",
         "./src/interfaces/email-options.interface.ts"
       ]
