@@ -1,4 +1,4 @@
-import {ISendMailOptions} from '@nestjs-modules/mailer';
+import { ISendMailOptions } from '@nestjs-modules/mailer';
 
 export interface EmailOptions
   extends Pick<

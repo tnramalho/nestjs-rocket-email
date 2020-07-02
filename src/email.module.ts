@@ -1,7 +1,7 @@
-import {Module, DynamicModule} from '@nestjs/common';
-import {MailerModule} from '@nestjs-modules/mailer';
-import {EmailService} from './email.service';
-import {EmailModuleOptions} from './interfaces/email-module-options.interface';
+import { Module, DynamicModule } from '@nestjs/common';
+import { MailerModule } from '@nestjs-modules/mailer';
+import { EmailService } from './email.service';
+import { EmailModuleOptions } from './interfaces/email-module-options.interface';
 @Module({})
 export class EmailModule {
   /**
