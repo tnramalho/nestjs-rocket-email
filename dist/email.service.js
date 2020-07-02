@@ -17,12 +17,7 @@ let EmailService = class EmailService {
         this.mailerService = mailerService;
     }
     async sendEmail(dto) {
-        try {
-            await this.mailerService.sendMail(dto);
-        }
-        catch (err) {
-            console.log(err);
-        }
+        await this.mailerService.sendMail(dto);
     }
 };
 EmailService = __decorate([

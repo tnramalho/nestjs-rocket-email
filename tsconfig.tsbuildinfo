@@ -136,16 +136,6 @@
         "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
         "affectsGlobalScope": true
       },
-      "./src/constants.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "affectsGlobalScope": false
-      },
-      "./src/email.module.spec.ts": {
-        "version": "90b317fb51f33738094f5bd4368079a23ad279e6e6b016546a9ac04b130537a7",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@nestjs/common/cache/cache.constants.d.ts": {
         "version": "3346a737f29b700e7c6c2a694973ceb70a738c3ac5212ffbefac8a27048fa8d6",
         "signature": "3346a737f29b700e7c6c2a694973ceb70a738c3ac5212ffbefac8a27048fa8d6",
@@ -1462,38 +1452,38 @@
         "affectsGlobalScope": false
       },
       "./src/interfaces/email-options.interface.ts": {
-        "version": "ee3ed103f9ac8409cce4710c9fb3e0653ddff9bce5806ec040f35372e93aa1b4",
+        "version": "856294507cb9162db654f46233e4d42171e228e9160453809b46a6568f4db94b",
         "signature": "02a28ce37757a8e4baae0ce11341a247fbb47cb9f8ff69e8bede883c743defae",
         "affectsGlobalScope": false
       },
       "./src/email.service.ts": {
-        "version": "5d531763a56bc8696f496f4e04b2ffb0db491b00345c7c01c4e2b1ef397e9f50",
+        "version": "c5c917c723d1b8a8377123063a4cb014771f282bbd847da35cd7528eb9f9208c",
         "signature": "f33fbb5d30eeaea5675dfd007f964fc027472d59763a12821a0e946d89a1b744",
         "affectsGlobalScope": false
       },
       "./src/interfaces/email-module-options.interface.ts": {
-        "version": "96dacff154a586fa1830311fd9b89b935f2e25e0d9fa4947327bc37e4730c6f9",
+        "version": "13dd084c52221ba7c247bfa24fd4dd355d60995d309ba4723c49b87f98eeebca",
         "signature": "658c218869de338342940367d0082c2dc2148d534d72b33e5143d895482fd279",
         "affectsGlobalScope": false
       },
+      "./src/interfaces/email-module-async-options.interface.ts": {
+        "version": "bf88752cd1172ae0ccb935c1d0a475ca0a72374ab3c915dd5fb853727acf3375",
+        "signature": "23a080ed161bcc8ec9e46f4b8416623ce39dd78a8b7cbad4356e411b004ebfc7",
+        "affectsGlobalScope": false
+      },
       "./src/email.module.ts": {
-        "version": "8eb9380b7a65bc04a1c6b3c19f6af33dd3b9f0bc38ceb2f0f46c90f0b9f1ad61",
-        "signature": "34bfbf7ce47b295ed0e0bfb6390b3a2e69724d441dd9a99a816b378bf812827a",
-        "affectsGlobalScope": false
-      },
-      "./src/index.ts": {
-        "version": "d5dd4ec3d23d9d918a5679a731eb9dedfc18710c772f590b6295c35fd21d47e1",
-        "signature": "d5dd4ec3d23d9d918a5679a731eb9dedfc18710c772f590b6295c35fd21d47e1",
-        "affectsGlobalScope": false
-      },
-      "./src/enums/index.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "version": "af99820c4f2f9bde7b7911f320bf9bdc89358b6c24f0d4b4c4244d4b433acab8",
+        "signature": "021f2a1cb3fd7ff3cf2720dac70fd7f93b55209c2921565944f505ba7b5b7146",
         "affectsGlobalScope": false
       },
       "./src/interfaces/index.ts": {
         "version": "c35bf016b9627bdbf0562aabd9017534385bcc6d66a4fc9edb3a184c44eccf45",
         "signature": "c35bf016b9627bdbf0562aabd9017534385bcc6d66a4fc9edb3a184c44eccf45",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "b367726b866fac114e0b7e8430d287d7a07678131585b7afd9248af937ca2d90",
+        "signature": "b367726b866fac114e0b7e8430d287d7a07678131585b7afd9248af937ca2d90",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/babel-types/index.d.ts": {
@@ -3571,20 +3561,13 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts"
       ],
-      "./src/constants.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
-      "./src/email.module.spec.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
       "./src/email.module.ts": [
         "./node_modules/@nestjs-modules/mailer/index.d.ts",
         "./node_modules/@nestjs/common/index.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./src/email.service.ts",
+        "./src/interfaces/email-module-async-options.interface.ts",
         "./src/interfaces/email-module-options.interface.ts"
       ],
       "./src/email.service.ts": [
@@ -3594,14 +3577,18 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/interfaces/email-options.interface.ts"
       ],
-      "./src/enums/index.ts": [
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
       "./src/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./src/email.module.ts"
+        "./src/email.module.ts",
+        "./src/email.service.ts",
+        "./src/interfaces/index.ts"
+      ],
+      "./src/interfaces/email-module-async-options.interface.ts": [
+        "./node_modules/@nestjs-modules/mailer/dist/interfaces/mailer-async-options.interface.d.ts",
+        "./node_modules/@nestjs-modules/mailer/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
       ],
       "./src/interfaces/email-module-options.interface.ts": [
         "./node_modules/@nestjs-modules/mailer/index.d.ts",
@@ -5546,6 +5533,7 @@
       ],
       "./src/email.module.ts": [
         "./node_modules/@nestjs/common/index.d.ts",
+        "./src/interfaces/email-module-async-options.interface.ts",
         "./src/interfaces/email-module-options.interface.ts"
       ],
       "./src/email.service.ts": [
@@ -5553,7 +5541,12 @@
         "./src/interfaces/email-options.interface.ts"
       ],
       "./src/index.ts": [
-        "./src/email.module.ts"
+        "./src/email.module.ts",
+        "./src/email.service.ts",
+        "./src/interfaces/index.ts"
+      ],
+      "./src/interfaces/email-module-async-options.interface.ts": [
+        "./node_modules/@nestjs-modules/mailer/dist/interfaces/mailer-async-options.interface.d.ts"
       ],
       "./src/interfaces/email-module-options.interface.ts": [
         "./node_modules/@nestjs-modules/mailer/index.d.ts"
@@ -5881,12 +5874,10 @@
       "./node_modules/typescript/lib/lib.es2020.bigint.d.ts",
       "./node_modules/typescript/lib/lib.es5.d.ts",
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "./src/constants.ts",
-      "./src/email.module.spec.ts",
       "./src/email.module.ts",
       "./src/email.service.ts",
-      "./src/enums/index.ts",
       "./src/index.ts",
+      "./src/interfaces/email-module-async-options.interface.ts",
       "./src/interfaces/email-module-options.interface.ts",
       "./src/interfaces/email-options.interface.ts",
       "./src/interfaces/index.ts"

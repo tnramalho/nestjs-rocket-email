@@ -20,11 +20,15 @@ let EmailModule = EmailModule_1 = class EmailModule {
     static register(options) {
         return {
             module: EmailModule_1,
-            imports: [
-                mailer_1.MailerModule.forRootAsync({
-                    useFactory: () => options,
-                }),
-            ],
+            imports: [mailer_1.MailerModule.forRoot(options)],
+            providers: [email_service_1.EmailService],
+            exports: [email_service_1.EmailService],
+        };
+    }
+    static registerAsync(options) {
+        return {
+            module: EmailModule_1,
+            imports: [mailer_1.MailerModule.forRootAsync(options)],
             providers: [email_service_1.EmailService],
             exports: [email_service_1.EmailService],
         };
