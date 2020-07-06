@@ -25,7 +25,7 @@
   "scripts": {
     "check": "gts check",
     "clean": "gts clean",
-    "compile": "tsc",
+    "compile": "./node_modules/.bin/tsc",
     "fix": "gts fix",
     "prepare": "yarn clean && yarn compile"
   }
