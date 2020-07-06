@@ -1,3 +1,2 @@
-# nestjs-rocket-email
-
-Advanced access control guard for NestJS
+# nestjs-mailer
+A NestJs module for sending email 
