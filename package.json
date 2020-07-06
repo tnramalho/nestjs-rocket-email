@@ -1,6 +1,6 @@
 {
   "name": "@rockts-org/nestjs-email",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -25,7 +25,7 @@
   "scripts": {
     "check": "gts check",
     "clean": "gts clean",
-    "compile": "./node_modules/.bin/tsc",
+    "compile": "tsc",
     "fix": "gts fix",
     "prepare": "yarn clean && yarn compile"
   }
